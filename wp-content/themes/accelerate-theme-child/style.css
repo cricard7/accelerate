@@ -58,3 +58,39 @@ background-color: #45ac9d !important;
 	font-weight: bold;
 }
 
+
+
+/*Case Studies*/
+
+aside.caseStudyDescription{
+    
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+aside.caseStudyDescription h5{
+    color: #b3b3b3;
+    margin-top: 15px;
+    font-size: 0.7em;
+}
+
+aside.caseStudyDescription h4{
+    margin-top: 15px;
+    font-style: normal;
+}
+.caseStudyImages{
+    float: left;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.caseStudyImages img{
+    
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
