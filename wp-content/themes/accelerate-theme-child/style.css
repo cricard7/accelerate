@@ -60,6 +60,15 @@ background-color: #45ac9d !important;
 
 
 
+/* Blog posts page*/
+
+.main-content {
+    
+    padding-right: 46px;
+}
+
+
+
 /*Case Studies*/
 
 aside.caseStudyDescription{
