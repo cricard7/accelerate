@@ -103,3 +103,24 @@ aside.caseStudyDescription h4{
     margin-bottom: 40px;
 }
 
+
+/* Main nav */
+
+#menu-top-nav li{
+    
+    float: left;
+    margin-right: 30px;
+    
+}
+
+#menu-top-nav li a{
+    
+ color: #e2f0ed;
+    
+}
+
+#primary-navigation{
+    
+    margin-top: -20px;
+    
+}
