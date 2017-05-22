@@ -3,7 +3,7 @@ Contributors: yani.iliev, bangelov, pimjitsawang
 Tags: move, transfer, copy, migrate, backup, clone, restore, db migration, migration, wordpress migration, website migration, database export, database import
 Requires at least: 3.3
 Tested up to: 4.7
-Stable tag: 6.44
+Stable tag: 6.45
 License: GPLv2 or later
 
 Move, transfer, copy, migrate, and backup a site with 1-click. Quick, easy, and reliable.
@@ -78,8 +78,15 @@ All in One WP Plugin is the first plugin to offer true mobile experience on Word
 3. Plugin Menu
 
 == Changelog ==
+= 6.45 =
+**Changed**
+* Better mechanism when enumerating files on import
+
+**Fixed**
+* Validation mechanism on export/import
+
 = 6.44 =
-** Added **
+**Added**
 * PHP and DB version metadata in package.json
 * Find/Replace values in package.json
 * Internal Site URL and Internal Home URL in package.json
@@ -87,71 +94,71 @@ All in One WP Plugin is the first plugin to offer true mobile experience on Word
 * Progress indicator on database export/import
 * Shutdown handler to catch fatal errors
 
-** Changed **
+**Changed**
 * Replace TYPE with ENGINE keyword on database export
 * Detect Site URL and Home URL in Find/Replace values
 * Activate template and stylesheet on import
 * Import database chunk by chunk to avoid timeout limitation
 
-** Fixed **
+**Fixed**
 * An issue on export/import when using HipHop for PHP
 
 = 6.43 =
-** Changed **
+**Changed**
 * Plugin tags and description
 
 = 6.42 =
-** Changed **
+**Changed**
 * Improved performance when exporting database
 
 = 6.41 =
-** Added **
+**Added**
 * Support Visual Composer plugin
 * Support Jetpack Photon module
 
-** Changed **
+**Changed**
 * Improved Maria DB support
 * Disable WordPress authentication checking during migration
 * Clean any temporary files after migration
 
 = 6.40 =
-** Added **
+**Added**
 * Separate action hook in advanced settings called "ai1wm_export_advanced_settings" to allow custom checkbox options on export
 
-** Changed **
+**Changed**
 * Do not extract dropins files on import
 * Do not exclude active plugins in package.json and multisite.json on export
 * Do not show "Resolving URL address..." on export/import
 
-** Fixed **
+**Fixed**
 * An issue with large files on import
 * An issue with inactive plugins option in advanced settings on export
 
 = 6.39 =
-** Added **
+**Added**
 * Support for MariaDB
 
-** Changed **
+**Changed**
 * Do not include package.json, multisite.json, blogs.json, database.sql and filemap.list files on export
 * Remove HTTP Basic authentication from Backups page
 
-** Fixed **
+**Fixed**
 * An issue with unpacking archive on import
 * An issue with inactivated plugins on import
 
 = 6.38 =
-** Added **
+**Added**
 * Support for HyperDB plugin
 * Support for RevSlider plugin
 * Check available disk space during export/import
 * Support very restricted hosting environments
 * WPRESS mime-type to web.config when the server is IIS
 
-** Changed **
+**Changed**
 * Switch to AJAX from cURL on export/import
 * Respect WordPress constants FS_CHMOD_DIR and FS_CHMOD_FILE on import
 * Remove misleading available disk space information on "Backups" page
 
-** Fixed **
+**Fixed**
 * An issue related to generating archive and folder names
 * An issue related to CSS styles on export page
