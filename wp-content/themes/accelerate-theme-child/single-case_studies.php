@@ -28,6 +28,7 @@ get_header(); ?>
             // $img3 is using the image id in custom fields plugin
             $img3 = get_field('image3');
             $size = "full";
+            $service = get_field('service');
             ?>
 
 
@@ -35,6 +36,7 @@ get_header(); ?>
 
                 <aside class="caseStudyDescription">
                     <h3><?php echo $title ?></h3>
+                    <h4 class="caseStudyService"><?php echo $service ?></h4>
                     <h4>Client: <?php echo $client; ?></h4>
                     <p>
                         <?php the_content(); ?>

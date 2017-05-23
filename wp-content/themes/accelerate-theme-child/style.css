@@ -130,6 +130,12 @@ aside.caseStudyDescription h4{
 }
 
 
+.caseStudyDescription .caseStudyService{
+    
+    color: #a3a3a3;
+    font-size: 0.8em;
+}
+
 /* Main nav */
 
 #menu-top-nav li{
