@@ -45,11 +45,11 @@ get_header(); ?>
 
                 <div class="caseStudyImages">
                     <?php if($img1) { ?>
-                        <img src="<?php echo $img1 ?>" />
+                        <?php echo wp_get_attachment_image($img1, $size); ?>
                       <?php  } ?>
                     
                      <?php if($img2) { ?>
-                        <img src="<?php echo $img2 ?>" />
+                        <?php echo wp_get_attachment_image($img2, $size); ?>
                       <?php  } ?>
                     
                     <!-- wp_get_attachment_image()  this is the preferred method of getting images as it takes advantange of wordress captions and sizes -->    

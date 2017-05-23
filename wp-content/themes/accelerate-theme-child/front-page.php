@@ -30,6 +30,35 @@ get_header(); ?>
     </section>
     <!-- .home-page -->
 
+
+<!-- Featured Work  -->
+<section class="featured-work">
+    <div class="site-content">
+        <h3 class="featuredTitle">FEATURED WORK</h3>
+            <!--Query parameter: posts_per_page=3  -->
+            <!-- posts_per_page=1 -->
+            <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
+            <ul class="homepage-featured-work">
+            <?php while ( have_posts() ): the_post(); 
+            $img1 = get_field("image1");
+            $size = "medium";
+                ?>
+                <li>
+        <figure>
+            <?php echo wp_get_attachment_image($img1, $size); ?>
+        </figure>
+                <h3 class="featuredWorkLink"><a href="<?php the_permalink(); ?>"> <?php the_title()?></a></h3>
+                </li>
+            <?php endwhile; ?>
+            
+            <?php wp_reset_query(); ?>
+    </ul>
+    </div>
+
+
+</section>
+
+
     <section class="recent-posts">
         <div class="site-content">
             <div class="blog-post">

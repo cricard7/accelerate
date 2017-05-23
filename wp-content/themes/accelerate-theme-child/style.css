@@ -13,7 +13,7 @@
 	
 @import url("../accelerate-theme/style.css");
 
-
+/*Home page*/
 
 .button{
     
@@ -30,6 +30,32 @@ background-color: #45ac9d !important;
     height: 440px;
     margin: 0 0 80px;
     padding: 100px 0;
+}
+
+.featured-work .featuredTitle{
+    
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.featured-work img{
+    
+    width: 275px;
+    height: 214px;
+}
+
+.featured-work li{
+    
+    
+    float: left;
+    margin-right: 36px;
+    list-style: none;
+    
+}
+
+.featured-work{
+    
+    margin-bottom: 400px;
 }
 
 .blog-post {
