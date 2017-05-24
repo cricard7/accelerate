@@ -22,7 +22,7 @@ get_header(); ?>
                 $title = get_field('title');  
                 $link = get_field('link'); 
                 $img1 = get_field('image1'); 
-                $size = "medium";
+                $size = "full";
                 $service = get_field('service');
             ?>
 
