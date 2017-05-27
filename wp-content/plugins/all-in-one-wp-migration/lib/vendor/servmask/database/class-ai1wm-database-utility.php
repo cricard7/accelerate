@@ -35,7 +35,11 @@ class Ai1wm_Database_Utility {
 	 * @return mixed        The original string with all elements replaced as needed.
 	 */
 	public static function replace_values( $from = array(), $to = array(), $data = '' ) {
-		return strtr( $data, array_combine( $from, $to ) );
+		if ( ! empty( $from ) && ! empty( $to ) ) {
+			return strtr( $data, array_combine( $from, $to ) );
+		}
+
+		return $data;
 	}
 
 	/**
@@ -74,7 +78,9 @@ class Ai1wm_Database_Utility {
 				unset( $tmp );
 			} else {
 				if ( is_string( $data ) ) {
-					$data = strtr( $data, array_combine( $from, $to ) );
+					if ( ! empty( $from ) && ! empty( $to ) ) {
+						$data = strtr( $data, array_combine( $from, $to ) );
+					}
 				}
 			}
 

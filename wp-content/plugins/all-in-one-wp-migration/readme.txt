@@ -3,7 +3,7 @@ Contributors: yani.iliev, bangelov, pimjitsawang
 Tags: move, transfer, copy, migrate, backup, clone, restore, db migration, migration, wordpress migration, website migration, database export, database import
 Requires at least: 3.3
 Tested up to: 4.7
-Stable tag: 6.45
+Stable tag: 6.46
 License: GPLv2 or later
 
 Move, transfer, copy, migrate, and backup a site with 1-click. Quick, easy, and reliable.
@@ -78,6 +78,11 @@ All in One WP Plugin is the first plugin to offer true mobile experience on Word
 3. Plugin Menu
 
 == Changelog ==
+= 6.46 =
+**Fixed**
+* Domain replacement on import
+* Invalid secret key check on import
+
 = 6.45 =
 **Changed**
 * Better mechanism when enumerating files on import

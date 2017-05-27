@@ -156,3 +156,47 @@ aside.caseStudyDescription h4{
     margin-top: -20px;
     
 }
+
+
+/*Contact Us Page*/
+
+#contactUsTitle{
+    
+    margin-top: 60px;
+}
+
+#contactUsContent p{
+    
+    font-size: 16.5px;
+    font-weight: normal;
+    
+}
+
+#contactUsContent{
+    
+    width: 720px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+#contactUsContent label{
+    
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+
+.nf-form-content{
+    
+    padding-bottom: 50px;
+} 
+
+/* contact form submit button*/
+
+#nf-field-4{
+    color: white;
+    background-color: #45ac9d;
+    width: 200px;
+    height: 50px;
+    float: right;
+}
