@@ -245,11 +245,18 @@ aside.caseStudyDescription h4{
    
 }
 
+.serviceTextLeft{
+    width: 500px;
+    float: left;
+    
+}
+
 .serviceText{
     
     width: 500px;
     float: right;
 }
+
 
 .service-icon img{
     width: 230px;

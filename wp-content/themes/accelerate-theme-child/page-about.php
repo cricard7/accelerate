@@ -52,6 +52,10 @@ get_header(); ?>
             $size = "full";
             $counter++;
                 ?>
+        
+          <?php if( ($counter % 2 != 0) ) { ?>
+                     
+                      
         <div class="serviceGrp">
                <span class="service-icon">
             <?php echo wp_get_attachment_image($img, $size); ?>
@@ -61,7 +65,29 @@ get_header(); ?>
                 <p><?php echo $serviceDescription ?></p>
                 <p><?php echo $counter ?></p>
             </div>
-        </div>      
+        </div>   
+        
+        <?php  } ?>
+        
+        <?php if($counter % 2 == 0) { ?>
+                     
+                      
+        <div class="serviceGrp">
+               
+            <div class="serviceTextLeft">
+                <h4><?php echo $serviceTitle ?></h4>
+                <p><?php echo $serviceDescription ?></p>
+                <p><?php echo $counter ?></p>
+            </div>
+            
+            <span class="service-icon">
+            <?php echo wp_get_attachment_image($img, $size); ?>
+                </span>
+        </div>   
+        
+        <?php  } ?>
+        
+        
             <?php endwhile; ?>
             
             <?php wp_reset_postdata(); ?>
