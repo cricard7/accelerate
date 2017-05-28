@@ -32,7 +32,7 @@ background-color: #45ac9d !important;
     padding: 100px 0;
 }
 
-.featured-work .featuredTitle{
+.featuredTitle{
     
     margin-bottom: 42px;
     text-align: center;
@@ -200,3 +200,60 @@ aside.caseStudyDescription h4{
     height: 50px;
     float: right;
 }
+
+
+
+
+/*About page */
+
+.greenAccelerate {
+    color: #45ac9d;;
+}
+
+.about-content{
+    
+    width: 60%;
+    margin: auto;
+    
+}
+
+.home-page.about-header{
+    
+    height: 150px;
+}
+
+.serviceTitle{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    
+}
+.serviceDescription{
+    text-align: center;
+    font-family: 'Montserrat';
+	   color: #a6a6a6;
+    width: 55%;
+    margin: auto;
+    margin-bottom: 66px;
+}
+
+.serviceGrp{
+    
+    width: 80%;
+    margin: auto;
+    padding-bottom: 60px;
+   
+}
+
+.serviceText{
+    
+    width: 500px;
+    float: right;
+}
+
+.service-icon img{
+    width: 230px;
+    height: auto;
+}
+
+
