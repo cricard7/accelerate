@@ -40,7 +40,7 @@ get_header(); ?>
       
         
         
-            <?php query_posts('post_type=services'); ?>
+            <?php query_posts('post_type=services&orderby=meta_value_num&meta_key=serviceorder&order=ASC'); ?>
             
             <?php 
             $counter = 0;
@@ -63,7 +63,7 @@ get_header(); ?>
             <div class="serviceText">
                 <h4><?php echo $serviceTitle ?></h4>
                 <p><?php echo $serviceDescription ?></p>
-                <p><?php echo $counter ?></p>
+                
             </div>
         </div>   
         
@@ -77,7 +77,7 @@ get_header(); ?>
             <div class="serviceTextLeft">
                 <h4><?php echo $serviceTitle ?></h4>
                 <p><?php echo $serviceDescription ?></p>
-                <p><?php echo $counter ?></p>
+                
             </div>
             
             <span class="service-icon">
