@@ -263,4 +263,23 @@ aside.caseStudyDescription h4{
     height: auto;
 }
 
+.ContactButton{
+    color: white;
+    background-color: #45ac9d;
+    width: 200px;
+    height: 50px;
+    
+}
+
+#aboutActionSec h3{
+    
+    
+    margin-left: 200px;
+    padding-bottom: 20px;
+}
+
+#aboutActionSec a{
+    
+    padding-left: 30px;
+}
 

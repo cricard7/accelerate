@@ -98,7 +98,23 @@ get_header(); ?>
         
         
     </div>
+    
+    
+    
+<!-- Call to action  -->
+</section>
+
+
+
+<section id="aboutActionSec">
+     <div class="site-content">
+         <hr>
+          <h3>Interested in working with us? <a href="http://localhost:8888/accelerate/contact-us/"><input class="ContactButton" type="button" value="Contact Us"></a></h3> 
+         
+    </div>
+
 
 </section>
+
 
 <?php get_footer(); ?>
