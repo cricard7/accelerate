@@ -21,10 +21,15 @@
 				<p>&copy; <?php bloginfo('title'); ?>, LLC
 				</div>
 				
-			<nav class="social-media-navigation" role="navigation">
-				
-          <h3>Footer Icons</h3>
           
+          <nav class="social-media-navigation" role="navigation">
+				
+              <?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
+                    <div id="secondary" class="widget-area" role="complementary">
+                        <?php dynamic_sidebar('footer-1'); ?>
+                    </div>
+               <?php endif; ?>
+              
 			</nav>
 
 				

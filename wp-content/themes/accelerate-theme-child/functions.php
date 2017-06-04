@@ -66,6 +66,17 @@ function accelerate_theme_child_widget_init() {
 	    'before_title' => '<h3 class="widget-title">',
 	    'after_title' => '</h3>',
 	) );
+    
+    
+    register_sidebar( array(
+	    'name' =>__( 'Footer sidebar', 'accelerate-theme-child'),
+	    'id' => 'footer-1',
+	    'description' => __( 'Appears in the footer', 'accelerate-theme-child' ),
+	    'before_widget' => '<div>',
+	    'after_widget' => '</div>',
+	    'before_title' => '<h3 class="widget-title">',
+	    'after_title' => '</h3>',
+	) );
 	
 }
 add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
