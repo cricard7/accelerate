@@ -117,9 +117,11 @@ background-color: #45ac9d !important;
     font-size: 16px;
     font-family: 'Montserrat';
     font-weight: bold;
-    color: #45ac9d;
     text-transform: uppercase;
     
+}
+.twitterFeed h2 a{
+    color: #45ac9d;
 }
 
 .tweets li{
@@ -256,7 +258,7 @@ aside.caseStudyDescription h4{
 /*About page */
 
 .greenAccelerate {
-    color: #45ac9d;;
+    color: #45ac9d;
 }
 
 .about-content{

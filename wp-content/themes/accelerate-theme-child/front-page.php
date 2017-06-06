@@ -89,7 +89,7 @@ get_header(); ?>
                     </div>
                     <?php endif; ?>
                 
-                <h2>Follow us &rsaquo;</h2>
+                <h2><a href="#">Follow us &rsaquo;</a></h2>
             </div>
             <!-- twitter feed  -->
         </div>
