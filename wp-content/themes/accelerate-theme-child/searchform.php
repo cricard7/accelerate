@@ -10,5 +10,5 @@
             title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>" />
     </label>
     <input type="submit" class="search-submit"
-        value="<?php echo esc_attr_x( 'Search', 'submit button' ) ?>" />
+        value="<?php echo esc_attr_x( '&rsaquo;', 'submit button' ) ?>" />
 </form>

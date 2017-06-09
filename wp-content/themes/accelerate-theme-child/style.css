@@ -141,6 +141,8 @@ background-color: #45ac9d !important;
 
 
 
+
+
 /*Case Studies*/
 
 aside.caseStudyDescription{
@@ -376,4 +378,29 @@ div.textwidget{
 #search-2 .screen-reader-text{
     
     display: none;
+}
+
+.search-submit{
+    
+    background-color: #45ac9d;
+    color: white;
+    width: 29px;
+}
+
+.mc4wp-form-fields input[type=submit]{
+    
+    color: white;
+    background-color: #45ac9d;
+    width: 200px;
+    height: 50px;
+}
+
+
+#categories-2{
+    border-bottom: 1px #bfbfbf solid;
+    
+}
+#archives-2{
+    
+    border-bottom: 1px #bfbfbf solid;
 }
