@@ -375,6 +375,11 @@ div.textwidget{
     border-bottom: 1px #bfbfbf solid;
 }
 
+#search-2 input[type=search]{
+    
+    width: 180px;
+}
+
 #search-2 .screen-reader-text{
     
     display: none;
